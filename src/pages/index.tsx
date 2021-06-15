@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import modalImg from '../assets/modal-header.svg'
+import ModalImg from '../assets/modal-header.svg'
 
 const Home: React.FC = () => {
   return (
@@ -11,7 +11,7 @@ const Home: React.FC = () => {
       </Head>
 
       <main>
-        <img src={modalImg} alt="" />
+        <ModalImg />
         <h1>Hello World</h1>
       </main>
     </div>
